@@ -3,10 +3,12 @@ var isCookieJarOpen = null;
 
 function closeLid() {
   /* answer here */
+  isCookieJarOpen = false; //cookie jar lid is closed
 }
 
 function openLid() {
   /* answer here */
+  isCookieJarOpen = true; //cookie jar lid is open
 }
 
 
